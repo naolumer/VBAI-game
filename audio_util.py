@@ -30,7 +30,6 @@ def audio_to_pcm16_base64(audio_bytes: bytes) -> bytes:
     pcm_audio = audio.set_frame_rate(SAMPLE_RATE).set_channels(CHANNELS).set_sample_width(2).raw_data
     return pcm_audio
 
-
 class AudioPlayerAsync:
     def __init__(self):
         self.queue = []
