@@ -47,7 +47,6 @@ glLoadIdentity()
 gluPerspective(45, (display[0]/display[1]), 0.1, 50.0)
 glMatrixMode(GL_MODELVIEW)
 
-# Set up basic lighting
 glEnable(GL_LIGHTING)
 glEnable(GL_LIGHT0)
 glLightfv(GL_LIGHT0, GL_POSITION, [0, 5, 5, 1])
