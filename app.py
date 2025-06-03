@@ -1,5 +1,4 @@
 import os
-#os.environ['SDL_VIDEODRIVER'] = 'cocoa'  # Use native macOS window system
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 
 import pygame
