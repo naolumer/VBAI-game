@@ -37,8 +37,6 @@ print("[OpenAI] API key loaded successfully.")
 # Initialize Pygame with macOS specific settings
 pygame.init()
 display = (800, 600)
-# pygame.display.gl_set_attribute(pygame.GL_CONTEXT_MAJOR_VERSION, 2)
-# pygame.display.gl_set_attribute(pygame.GL_CONTEXT_MINOR_VERSION, 1)
 pygame.display.set_mode(display, DOUBLEBUF|OPENGL)
 screen = pygame.display.get_surface()
 
