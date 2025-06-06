@@ -357,7 +357,7 @@ class DialogueSystem:
             self.npc_message = ai_message
             print(f"[DialogueSystem] NPC says: {self.npc_message}")
         except Exception as e:
-            self.npc_message = "I apologize, but I'm having trouble connecting to our systems right now."
+            self.npc_message = "I apologize, but I am having trouble connecting to our systems right now."
             print(f"[DialogueSystem] Error: {e}")
 
     def handle_input(self, event):
