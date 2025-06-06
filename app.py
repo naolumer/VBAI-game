@@ -319,7 +319,7 @@ class DialogueSystem:
         npc_title = "CEO" if npc_role == "CEO" else "HR Director"
         initial_message = {
             "HR": f"Hello there, I am Sarah Chen, HR Director at Venture Builder AI. How can I assist you today?",
-            "CEO": f"Hello there, I am Michael Chen, CEO at Venture Builder AI. What can I do for you today?"
+            "CEO": f"Hey there, I am Michael Chen, CEO at Venture Builder AI. What can I do for you today?"
         }
 
         self.npc_message = initial_message[npc_role]
