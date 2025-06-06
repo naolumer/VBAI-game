@@ -377,7 +377,7 @@ class DialogueSystem:
                 self.speech_mode = not self.speech_mode
                 if self.speech_mode:
                     self.sent_audio_once = False
-                    print("[DialogueSystem] Speech mode enabled: Real-time conversation started.")
+                    print("[DialogueSystem] Speech mode enabled: Real-time Speech conversation started.")
                 else:
                     print("[DialogueSystem] Speech mode disabled.")
 
